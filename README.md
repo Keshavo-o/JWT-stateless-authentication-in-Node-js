@@ -10,3 +10,8 @@ There are no states. We store states in the payload/parkingticket/token only ins
 ### we use JWT tokens for it:
 JWT (JSON Web Token) is a compact, URL-safe token used for stateless authentication.
 It allows securely transmitting information between client and server as a digitally signed JSON object.
+
+#### STEPS:
+1. We convert the payload into a JWT from website (encoded format).
+2. we set JWT token in cookie.
+3. This JWT token can be decoded into our original payload.
