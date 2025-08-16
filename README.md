@@ -7,3 +7,6 @@ But there are some problems using it :
 Thats the reason we can use "stateless" authentication 
 ## In "stateless" authentication:
 There are no states. We store states in the payload/parkingticket/token only instead of server and we put a stamp on this token so that no once can modify it, only read it.
+### we use JWT tokens for it:
+JWT (JSON Web Token) is a compact, URL-safe token used for stateless authentication.
+It allows securely transmitting information between client and server as a digitally signed JSON object.
