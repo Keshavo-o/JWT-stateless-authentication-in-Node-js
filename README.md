@@ -1,5 +1,5 @@
 # JWT-stateless-authentication-in-Node-js
-Node js authentication using JWT tokens - based on previously uploaded https://github.com/Keshavo-o/Custom-URL-shortner-app
+Node js authentication using JWT tokens - applied on previously uploaded https://github.com/Keshavo-o/Custom-URL-shortner-app
 ## In "statefull" authentication :
 server maintains a state(form of diary) in the backend.
 But there are some problems using it :
