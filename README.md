@@ -6,4 +6,4 @@ But there are some problems using it :
 2. statefull auth uses server memory and server has limited memory.
 Thats the reason we can use "stateless" authentication 
 ## In "stateless" authentication:
-
+There are no states. We store states in the payload/parkingticket/token only instead of server and we put a stamp on this token so that no once can modify it, only read it.
